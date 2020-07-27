@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/colorWhite"
+    tools:context=".activity.ReservationActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fill in the form below to make a treatment reservation."
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/reg_edittext_style"
+        android:hint="Name"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edtTreatment"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/reg_edittext_style"
+        android:hint="Treatment"
+        android:layout_marginTop="8dp"
+        />
+
+    <EditText
+        android:id="@+id/edtDate"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/reg_edittext_style"
+        android:hint="Date Book"
+        android:layout_marginTop="8dp"
+        />
+
+    <EditText
+        android:id="@+id/edtAddress"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Address"
+        android:background="@drawable/reg_edittext_style"
+        android:layout_marginTop="8dp"
+        />
+
+    <EditText
+        android:id="@+id/edtTlp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Tlp / HP"
+        android:background="@drawable/reg_edittext_style"
+        android:layout_marginTop="8dp"
+        />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Email"
+        android:background="@drawable/reg_edittext_style"
+        android:layout_marginTop="8dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/actionSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/reg_btn_style"
+            android:text="Save"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/actionCancel"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/reg_btn_style"
+            android:text="Cancel"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

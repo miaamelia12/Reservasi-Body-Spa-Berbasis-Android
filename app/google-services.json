@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "694794706431",
+    "firebase_url": "https://bella-mia-body-spa.firebaseio.com",
+    "project_id": "bella-mia-body-spa",
+    "storage_bucket": "bella-mia-body-spa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694794706431:android:807dfc0f610544425f1bca",
+        "android_client_info": {
+          "package_name": "pnj.uas.fahmia_amelia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694794706431-l13phcelodbo3m1753g5gndlrgtglq3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzWBwcRKauKUR-3Lal0oU0AP4XCHyvFX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694794706431-l13phcelodbo3m1753g5gndlrgtglq3l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bella Mia Body Spa</string>
+    <string name="title_home">About Bella Mia Wellness Body Spa</string>
+    <string name="content_home">Bella Mia Wellness Body Spa is managed by PT . Cantika Pesonapuspa . One of Bella Mia Group company that handles body treatments beauty services. Managed by a professional staff who are experienced in the field of beauty and spa , PT. Cantika Pesonapuspa can be your best choice to do business while preserving the beauty traditions of Indonesia.</string>
+    <string name="treatment_name">TreatmentName</string>
+    <string name="treatment_description">TreatmentDescription</string>
+</resources>
